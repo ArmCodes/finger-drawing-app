@@ -15,6 +15,9 @@
 - 💾 **保存作品** - 一键保存绘画为 PNG 图片
 - 🖐️ **直观手势** - 食指书写，张开手掌结束
 
+### 在线试用
+
+直接访问 [[GitHub Pages 链接](https://laddzhao.github.io/finger-drawing-app/)] 即可体验应用。
 
 
 
