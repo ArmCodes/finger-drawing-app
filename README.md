@@ -20,7 +20,7 @@
 直接访问 [[GitHub Pages 链接](https://laddzhao.github.io/finger-drawing-app/)] 即可体验应用。
 
 ### 图片展示
-
+![image](https://laddzhao.github.io/finger-drawing-app/finger-drawing.gif)
 ![image](https://laddzhao.github.io/finger-drawing-app/finger-drawing.png)
 
 # Finger Drawing App - Air Canvas
