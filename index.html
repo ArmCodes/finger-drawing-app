@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指尖签名板 - 手势控制绘图应用</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="camera-container">
+            <video id="input_video"></video>
+            <canvas id="canvas-overlay"></canvas>
+            <canvas id="drawing-canvas"></canvas>
+        </div>
+        
+        <div id="status">
+            <span class="status-indicator status-ready"></span>
+            <span id="status-text">准备书写</span>
+        </div>
+        
+        <div id="instructions">
+            <h3>使用说明</h3>
+            <p>• 伸出食指在空中书写</p>
+            <p>• 张开手掌结束书写</p>
+            <p>• 使用下方控制面板调整设置</p>
+        </div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <div class="slider-container">
+                    <span class="slider-label">线条粗细</span>
+                    <input type="range" min="1" max="20" value="4" class="slider" id="line-width-slider">
+                    <span id="line-width-value">4</span>
+                </div>
+                
+                <div class="color-picker-container">
+                    <span class="slider-label">线条颜色</span>
+                    <input type="color" id="color-picker" value="#4d96ff">
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <button id="clear-btn" class="control-btn">
+                    <span class="btn-icon">🗑️</span> 清除画布
+                </button>
+                <button id="mirror-toggle" class="control-btn">
+                    <span class="btn-icon">🔄</span> 镜像: 开启
+                </button>
+                <button id="save-btn" class="control-btn">
+                    <span class="btn-icon">💾</span> 保存图片
+                </button>
+            </div>
+        </div>
+        
+        <div id="camera-permission">
+            <div class="permission-content">
+                <h2>需要摄像头权限</h2>
+                <p>此应用需要使用摄像头进行手势识别，以实现指尖书写功能</p>
+                <button id="enable-camera">启用摄像头</button>
+                <p class="privacy-note">我们不会存储或传输您的摄像数据</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
