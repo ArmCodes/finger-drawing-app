@@ -17,15 +17,8 @@
 
 ## 快速开始
 
-### 在线试用
 
-直接访问 [GitHub Pages 链接] 即可体验应用。
 
-### 本地运行
-
-1. 克隆仓库
-```bash
-git clone https://github.com/your-username/finger-drawing-app.git
 
 # Finger Drawing App - Air Canvas
 
